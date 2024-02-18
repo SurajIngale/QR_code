@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(195, 190, 190);
+}
+
+.white{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+}
+.image{
+    height: 230px;
+    width: 230px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 390px;
+}
+h3{
+    height: 230px;
+    width: 230px;
+    position: relative;
+    bottom: 400px;
+}
+p{
+    height: 230px;
+    width: 230px;
+    position: relative;
+    bottom: 590px;
+}
+.attribute{
+    font-size: small;
+    position: relative;
+    bottom: 740px;
+}
+@media(min-width: 500px){
+    .container{
+        width: 400px;
+    }
+}
